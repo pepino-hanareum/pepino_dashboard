@@ -67,7 +67,7 @@ view_option = st.session_state.view_option
 
 # Excel 파일 로드
 try:
-    df = pd.read_excel("D:/pepino/페피노의 게임상자.xlsx")
+    df = pd.read_excel("페피노의 게임상자.xlsx")
 except FileNotFoundError:
     st.error("페피노의 게임상자.xlsx 파일이 포함되지 않았어요. 파일을 건너주세요.")
     st.stop()
